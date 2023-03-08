@@ -1,31 +1,42 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: higgco # Your GitHub organization or username, where this repository lives
+repo: higg-status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Portal HIGG
+    url: https://portal.higg.org
+  - name: Portal HIGG Backend
+    url: $API_URL
+    method: GET
+  - name: Profiles HIGG
+    url: https://profiles.higg.com
+  - name: Corp Reporting
+    url: https://corpreporting.higg.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.higg.com
+  #baseUrl: /upptime-test
+  logoUrl: https://higg.com/wp-content/uploads/2021/10/higg_lockup-TrustedSustainabilityData_Black_200px.png
+  name: HIGG Status Page
+  introTitle: "**Higg** is an integrated software platform that helps you take responsibility for your business's environmental and social impact."
+  introMessage: Status Page
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
+i18n:
+  footer: For more information visit our [web page](https://higg.com)
+  
+workflowSchedule:
+  graphs: "*/10 * * * *"
+  responseTime: "*/10 * * * *"
+  staticSite: "*/10 * * * *"
+  summary: "*/10 * * * *"
+  updateTemplate: "*/10 * * * *"
+  updates: "*/10 * * * *"
+  uptime: "*/10 * * * *"
+  
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
