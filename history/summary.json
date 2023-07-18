@@ -40,18 +40,20 @@
     "url": "https://profiles.higg.com",
     "icon": "https://icons.duckduckgo.com/ip3/profiles.higg.com.ico",
     "slug": "profiles-higg",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 192,
-    "timeDay": 179,
-    "timeWeek": 195,
+    "timeDay": 182,
+    "timeWeek": 196,
     "timeMonth": 195,
     "timeYear": 192,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-07-18": 1
+    }
   },
   {
     "name": "Corp Reporting",
