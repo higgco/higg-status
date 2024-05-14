@@ -12,14 +12,18 @@ sites:
     url: https://profiles.higg.com
   - name: Corp Reporting
     url: https://corpreporting.higg.com
+  - name: App Worldly
+    url: https://worldly.io
+  - name: Learn Worldly
+    url: https://learn.worldly.io
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: status.higg.com
+  cname: status.worldly.io
   #baseUrl: /upptime-test
   logoUrl: https://higg.com/wp-content/uploads/2021/10/higg_lockup-TrustedSustainabilityData_Black_200px.png
-  name: HIGG Status Page
+  name: Worldly Status Page
   introTitle: "**Higg** is an integrated software platform that helps you take responsibility for your business's environmental and social impact."
   introMessage: Status Page
   navbar:
@@ -27,7 +31,7 @@ status-website:
       href: /
 
 i18n:
-  footer: For more information visit our [web page](https://higg.com)
+  footer: For more information visit our [web page](https://worldly.io)
   
 workflowSchedule:
   graphs: "0 * * * *"
