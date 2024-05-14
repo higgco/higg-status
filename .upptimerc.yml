@@ -7,9 +7,9 @@ sites:
     url: https://worldly.io
   - name: Worldly Backend
     url: https://api-v2.production.higg.org/tou/fem
+    method: GET
   - name: Learn Worldly
     url: https://learn.worldly.io
-    method: GET
   - name: Profiles HIGG
     url: https://profiles.higg.com
   - name: Corp Reporting
