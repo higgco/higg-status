@@ -6,7 +6,7 @@ sites:
   - name: worldly.io
     url: https://worldly.io
   - name: Worldly Backend
-    url: https://api-v2.production.higg.org/
+    url: https://api-v2.production.higg.org/tou/fem
   - name: Learn Worldly
     url: https://learn.worldly.io
     method: GET
