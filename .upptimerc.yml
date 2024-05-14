@@ -24,7 +24,7 @@ status-website:
   #baseUrl: /upptime-test
   logoUrl: https://worldly.io/wp-content/uploads/2023/04/Worldly_LogoTM_Urgency@4x-200x50.png
   name: Worldly Status Page
-  introTitle: "**Higg** is an integrated software platform that helps you take responsibility for your business's environmental and social impact."
+  introTitle: "**Worldly** is an integrated software platform that helps you take responsibility for your business's environmental and social impact."
   introMessage: Status Page
   navbar:
     - title: Status
