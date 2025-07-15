@@ -38,3 +38,4 @@ workflowSchedule:
   summary: "0 * * * *"
   updates: "0 * * * *"
   uptime: "*/10 * * * *"
+version: latest
