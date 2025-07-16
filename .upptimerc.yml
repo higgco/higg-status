@@ -32,8 +32,8 @@ status-website:
 i18n:
   footer: For more information visit our [web page](https://worldly.io)
 commitMessages:
-  commitAuthorName: Martin Carletti
-  commitAuthorEmail: martin.carletti@worldly.io
+  commitAuthorName: "Martin Carletti"
+  commitAuthorEmail: "martin.carletti@worldly.io"
   
 workflowSchedule:
   graphs: "0 * * * *"
