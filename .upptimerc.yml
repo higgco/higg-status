@@ -40,11 +40,11 @@ status-website:
       const now = new Date();
       const formattedDateTime = now.toLocaleString(undefined, { hour12: false });
       dateTimeElement.textContent = formattedDateTime;
-    }      
+    }
+
   links:
     - rel: stylesheet
-      href: |
-      /assets/custom-styles.css
+      href: /assets/custom-styles.css
 
 i18n:
   footer: For more information visit our [web page](https://worldly.io)
