@@ -15,7 +15,8 @@
     "timeWeek": 372,
     "timeMonth": 375,
     "timeYear": 375,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {},
+    "lastUpdated": ""
   },
   {
     "name": "Worldly Backend",
@@ -33,7 +34,8 @@
     "timeWeek": 658,
     "timeMonth": 648,
     "timeYear": 648,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {},
+    "lastUpdated": ""
   },
   {
     "name": "Learn Worldly",
@@ -51,7 +53,8 @@
     "timeWeek": 450,
     "timeMonth": 453,
     "timeYear": 453,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {},
+    "lastUpdated": ""
   },
   {
     "name": "Profiles HIGG",
@@ -69,7 +72,8 @@
     "timeWeek": 259,
     "timeMonth": 260,
     "timeYear": 260,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {},
+    "lastUpdated": ""
   },
   {
     "name": "Corp Reporting",
@@ -87,6 +91,7 @@
     "timeWeek": 281,
     "timeMonth": 271,
     "timeYear": 271,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {},
+    "lastUpdated": ""
   }
 ]
