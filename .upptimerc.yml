@@ -24,7 +24,10 @@ status-website:
     <div id="updateCard" class="update-card">
       Última actualización: <span id="currentDateTime"></span>
     </div>
-  customFootHtml: "<!-- Custom HTML to add at the end of <body> -->"
+  customFootHtml: |
+    <div id="updateCard" class="update-card">
+      Última actualización: <span id="currentDateTime"></span>
+    </div>
   #baseUrl: /upptime-test
   logoUrl: https://worldly.io/wp-content/uploads/2023/04/Worldly_LogoTM_Urgency@4x-200x50.png
   name: Worldly Status Page
