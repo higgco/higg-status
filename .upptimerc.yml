@@ -28,6 +28,23 @@ status-website:
   navbar:
     - title: Status
       href: /
+  
+
+  customFootHtml: |
+    <div id="updateCard" class="update-card">
+      Última actualización: <span id="currentDateTime"></span>
+    </div>
+  js: |
+    window.onload = function() {
+      const dateTimeElement = document.getElementById('currentDateTime');
+      const now = new Date();
+      const formattedDateTime = now.toLocaleString(undefined, { hour12: false });
+      dateTimeElement.textContent = formattedDateTime;
+    }      
+  links:
+    - rel: stylesheet
+      href: |
+      /assets/custom-styles.css
 
 i18n:
   footer: For more information visit our [web page](https://worldly.io)
