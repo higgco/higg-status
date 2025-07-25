@@ -20,6 +20,11 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.worldly.io
+  customHeadHtml: |
+    <div id="updateCard" class="update-card">
+      Última actualización: <span id="currentDateTime"></span>
+    </div>
+  customFootHtml: "<!-- Custom HTML to add at the end of <body> -->"
   #baseUrl: /upptime-test
   logoUrl: https://worldly.io/wp-content/uploads/2023/04/Worldly_LogoTM_Urgency@4x-200x50.png
   name: Worldly Status Page
@@ -30,10 +35,7 @@ status-website:
       href: /
   
 
-  customFootHtml: |
-    <div id="updateCard" class="update-card">
-      Última actualización: <span id="currentDateTime"></span>
-    </div>
+
   js: |
     window.onload = function() {
       const dateTimeElement = document.getElementById('currentDateTime');
