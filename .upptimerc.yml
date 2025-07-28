@@ -22,11 +22,7 @@ status-website:
   cname: status.worldly.io
   customHeadHtml: |
     <div id="updateCard" class="update-card">
-      Última actualización: <span id="currentDateTime"></span>
-    </div>
-  customFootHtml: |
-    <div id="updateCard" class="update-card">
-      Última actualización: <span id="currentDateTime"></span>
+       Last Update: <span id="currentDateTime"></span>
     </div>
   #baseUrl: /upptime-test
   logoUrl: https://worldly.io/wp-content/uploads/2023/04/Worldly_LogoTM_Urgency@4x-200x50.png
@@ -37,15 +33,18 @@ status-website:
     - title: Status
       href: /
   
-
-
   js: |
-    window.onload = function() {
-      const dateTimeElement = document.getElementById('currentDateTime');
-      const now = new Date();
-      const formattedDateTime = now.toLocaleString(undefined, { hour12: false });
-      dateTimeElement.textContent = formattedDateTime;
-    }
+    fetch('/api/last-update.json')
+      .then(res => res.json())
+      .then(data => {
+        if (data.lastUpdated) {
+          const el = document.getElementById('last-update');
+          el.textContent = "Last Update: " + data.lastUpdated;
+        }
+      })
+      .catch(err => {
+        console.error("Error fetching update timestamp:", err);
+      });
 
   links:
     - rel: stylesheet
