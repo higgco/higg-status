@@ -38,6 +38,3 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
-      - name: Write workflow execution timestamp
-        run: |
-          echo "{\"lastUpdated\": \"$(date -u +"%Y-%m-%d %H:%M:%S UTC")\"}" > ./api/last-update.json
