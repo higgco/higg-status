@@ -1,0 +1,27 @@
+name: Write last update timestamp
+
+on:
+  workflow_run:
+    workflows: ["Response Time CI"]
+    types:
+      - completed
+
+jobs:
+  write-timestamp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          token: ${{ secrets.GH_PAT || github.token }}
+
+      - name: Write workflow execution timestamp
+        run: |
+          echo "{\"lastUpdated\": \"$(date -u +"%Y-%m-%d %H:%M:%S UTC")\"}" > ./api/last-update.json
+
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "🔄 Update last update timestamp"
+          add: "./api/last-update.json"
