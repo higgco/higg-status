@@ -18,8 +18,9 @@ jobs:
 
       - name: Replace timestamp for last update
         run: |
-          timestamp=$(date -u +"%Y-%m-%d %H:%M UTC")
-          sed -i "s|\(<span id=\"last-update\">\)[^<]*\(</span>\)|\1$timestamp\2|" .upptimerc.yml
+          timestamp=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          echo "⏱️ Generated timestamp: $timestamp"
+          sed -i "s/LAST_UPDATE_TIMESTAMP/$timestamp/g" .upptimerc.yml
 
       - name: Commit and push
         uses: EndBug/add-and-commit@v9
