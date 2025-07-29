@@ -38,13 +38,13 @@ jobs:
           command: "update-template"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
-      - name: Update response time
-        uses: upptime/uptime-monitor@v1.40.1
-        with:
-          command: "response-time"
-        env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
-          SECRETS_CONTEXT: ${{ toJson(secrets) }}
+      # - name: Update response time
+      #   uses: upptime/uptime-monitor@v1.40.1
+      #   with:
+      #     command: "response-time"
+      #   env:
+      #     GH_PAT: ${{ secrets.GH_PAT || github.token }}
+      #     SECRETS_CONTEXT: ${{ toJson(secrets) }}
       - name: Update summary in README
         uses: upptime/uptime-monitor@v1.40.1
         with:
