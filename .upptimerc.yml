@@ -32,19 +32,6 @@ status-website:
   navbar:
     - title: Status
       href: /
-  
-  # js: |
-  #   fetch('/api/last-update.json')
-  #       .then(res => res.json())
-  #       .then(data => {
-  #         if (data.lastUpdated) {
-  #           const el = document.getElementById('last-update');
-  #           el.textContent = "Last Update: " + data.lastUpdated;
-  #         }
-  #       })
-  #       .catch(err => {
-  #         console.error("Error fetching update timestamp:", err);
-  #       });
 
   links:
     - rel: stylesheet
