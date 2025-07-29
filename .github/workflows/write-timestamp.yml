@@ -13,13 +13,13 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Install yq
-      run: sudo wget -qO /usr/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 && sudo chmod +x /usr/bin/yq
+      - name: Install yq
+        run: sudo wget -qO /usr/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 && sudo chmod +x /usr/bin/yq
 
-    - name: Replace timestamp for last update
-      run: |
-        timestamp=$(date -u +"%Y-%m-%d %H:%M UTC")
-        sed -i "s|\(<span id=\"last-update\">\)[^<]*\(</span>\)|\1$timestamp\2|" .upptimerc.yml
+      - name: Replace timestamp for last update
+        run: |
+          timestamp=$(date -u +"%Y-%m-%d %H:%M UTC")
+          sed -i "s|\(<span id=\"last-update\">\)[^<]*\(</span>\)|\1$timestamp\2|" .upptimerc.yml
 
       - name: Commit and push
         uses: EndBug/add-and-commit@v9
