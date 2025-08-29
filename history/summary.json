@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/worldly.io.ico",
     "slug": "worldly-io",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.99%",
+    "uptimeDay": "95.96%",
+    "uptimeWeek": "99.42%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.99%",
     "time": 371,
     "timeDay": 434,
     "timeWeek": 387,
     "timeMonth": 385,
     "timeYear": 380,
     "dailyMinutesDown": {
-      "2025-08-29": 0
+      "2025-08-29": 58
     }
   },
   {
