@@ -22,7 +22,7 @@ status-website:
   cname: status.worldly.io
   customHeadHtml: |
     <div id="updateCard" class="update-card">
-      Last Update: <span id="last-update">2026-01-14 14:05 UTC</span>
+      Last Update: <span id="last-update">2026-01-14 16:04 UTC</span>
     </div>
   #baseUrl: /upptime-test
   logoUrl: https://worldly.io/wp-content/uploads/2023/04/Worldly_LogoTM_Urgency@4x-200x50.png
