@@ -1,7 +1,7 @@
 url: https://worldly.io
-status: up
-code: 200
-responseTime: 311
-lastUpdated: 2026-03-24T09:17:24.221Z
+status: down
+code: 504
+responseTime: 232
+lastUpdated: 2026-03-24T10:16:19.667Z
 startTime: 2024-05-14T17:03:41.776Z
 generator: Upptime <https://github.com/upptime/upptime>
