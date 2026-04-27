@@ -11,8 +11,8 @@
     "uptimeMonth": "99.75%",
     "uptimeYear": "98.34%",
     "time": 361,
-    "timeDay": 299,
-    "timeWeek": 307,
+    "timeDay": 275,
+    "timeWeek": 305,
     "timeMonth": 306,
     "timeYear": 362,
     "dailyMinutesDown": {
@@ -45,9 +45,9 @@
     "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 605,
-    "timeDay": 473,
-    "timeWeek": 505,
-    "timeMonth": 563,
+    "timeDay": 599,
+    "timeWeek": 519,
+    "timeMonth": 565,
     "timeYear": 605,
     "dailyMinutesDown": {
       "2026-04-01": 16
@@ -63,15 +63,13 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.99%",
+    "uptimeYear": "100.00%",
     "time": 415,
-    "timeDay": 352,
-    "timeWeek": 318,
+    "timeDay": 335,
+    "timeWeek": 315,
     "timeMonth": 325,
     "timeYear": 416,
-    "dailyMinutesDown": {
-      "2026-03-27": 39
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Profiles HIGG",
@@ -85,9 +83,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 242,
-    "timeDay": 257,
-    "timeWeek": 254,
-    "timeMonth": 251,
+    "timeDay": 288,
+    "timeWeek": 256,
+    "timeMonth": 252,
     "timeYear": 242,
     "dailyMinutesDown": {}
   },
@@ -103,8 +101,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 225,
-    "timeDay": 210,
-    "timeWeek": 215,
+    "timeDay": 233,
+    "timeWeek": 216,
     "timeMonth": 237,
     "timeYear": 227,
     "dailyMinutesDown": {}
