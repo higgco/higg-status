@@ -11,7 +11,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "98.34%",
     "time": 353,
-    "timeDay": 396,
+    "timeDay": 392,
     "timeWeek": 301,
     "timeMonth": 284,
     "timeYear": 354,
@@ -38,19 +38,20 @@
     "url": "https://api-v2.production.higg.org/tou/fem",
     "icon": "https://icons.duckduckgo.com/ip3/api-v2.production.higg.org.ico",
     "slug": "worldly-backend",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 609,
     "timeDay": 477,
-    "timeWeek": 578,
-    "timeMonth": 624,
+    "timeWeek": 582,
+    "timeMonth": 625,
     "timeYear": 608,
     "dailyMinutesDown": {
-      "2026-04-01": 16
+      "2026-04-01": 16,
+      "2026-06-07": 0
     }
   },
   {
@@ -65,7 +66,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 403,
-    "timeDay": 296,
+    "timeDay": 297,
     "timeWeek": 296,
     "timeMonth": 299,
     "timeYear": 404,
@@ -85,9 +86,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 242,
-    "timeDay": 226,
+    "timeDay": 230,
     "timeWeek": 276,
-    "timeMonth": 254,
+    "timeMonth": 255,
     "timeYear": 243,
     "dailyMinutesDown": {}
   },
@@ -103,9 +104,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 225,
-    "timeDay": 189,
-    "timeWeek": 235,
-    "timeMonth": 226,
+    "timeDay": 187,
+    "timeWeek": 234,
+    "timeMonth": 227,
     "timeYear": 227,
     "dailyMinutesDown": {}
   }
