@@ -38,20 +38,20 @@
     "url": "https://api-v2.production.higg.org/tou/fem",
     "icon": "https://icons.duckduckgo.com/ip3/api-v2.production.higg.org.ico",
     "slug": "worldly-backend",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.33%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 609,
-    "timeDay": 477,
-    "timeWeek": 582,
+    "timeDay": 471,
+    "timeWeek": 579,
     "timeMonth": 625,
     "timeYear": 608,
     "dailyMinutesDown": {
       "2026-04-01": 16,
-      "2026-06-07": 0
+      "2026-06-07": 10
     }
   },
   {
